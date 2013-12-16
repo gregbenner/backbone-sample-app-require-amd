@@ -1,6 +1,6 @@
 define([
-    'js/apple.tpl',
-    'js/apple-spinner.tpl'
+    'apple.tpl',
+    'apple-spinner.tpl'
 ], function(appleTpl, appleSpinnerTpl) {
     return Backbone.View.extend({
         template: _.template(appleTpl),

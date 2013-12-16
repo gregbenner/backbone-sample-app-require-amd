@@ -1,4 +1,4 @@
-define(['js/apple-home.tpl','js/apple-item-view'],function(appleHomeTpl, appleItemView){
+define(['apple-home.tpl','apple-item-view'],function(appleHomeTpl, appleItemView){
 
 return Backbone.View.extend({
         el: 'div',

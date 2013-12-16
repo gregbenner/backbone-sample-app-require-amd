@@ -1,4 +1,4 @@
-define(['js/apple-item.tpl'], function(appleItemTpl) {
+define(['apple-item.tpl'], function(appleItemTpl) {
 
 return Backbone.View.extend({
       tagName: 'li',
